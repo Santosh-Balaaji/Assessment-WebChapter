@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ASB Text Field should render default component 1`] = `
+<Fragment>
+  <WithStyles(ForwardRef(TextField))
+    className=""
+    data-testid="TextField"
+    fullWidth={false}
+    id="textfield"
+    label="TextField"
+    name="textfield"
+    onBlur={[MockFunction]}
+    onChange={[MockFunction]}
+    placeholder="Enter"
+    size="small"
+    value="Hello World"
+    variant="filled"
+  />
+</Fragment>
+`;

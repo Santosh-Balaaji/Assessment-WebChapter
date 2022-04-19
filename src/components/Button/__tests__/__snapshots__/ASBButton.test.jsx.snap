@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ASB Button Component should render default component 1`] = `
+<WithStyles(ForwardRef(Button))
+  className=""
+  color="primary"
+  data-testid="DefaultButton"
+  onClick={[MockFunction]}
+  size="medium"
+  variant="outlined"
+>
+  Submit
+</WithStyles(ForwardRef(Button))>
+`;
+
+exports[`ASB Button Component should render default component 2`] = `
+<WithStyles(ForwardRef(Button))
+  data-testid="StyledButton"
+  onClick={[MockFunction]}
+  style={
+    Object {
+      "minWidth": 250,
+    }
+  }
+>
+  Submit
+</WithStyles(ForwardRef(Button))>
+`;

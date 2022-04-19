@@ -1,0 +1,60 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AppBar Component should render default component 1`] = `
+<div
+  className="makeStyles-root-1"
+>
+  <WithStyles(CssBaseline) />
+  <WithStyles(ForwardRef(AppBar))
+    className="makeStyles-appBar-2"
+    position="fixed"
+  >
+    <WithStyles(ForwardRef(Toolbar))>
+      <WithStyles(ForwardRef(IconButton))
+        aria-label="open drawer"
+        className="makeStyles-menuButton-4"
+        color="inherit"
+        data-testid="BurgerIconButton"
+        edge="start"
+        onClick={[MockFunction]}
+      >
+        <Memo(ForwardRef(MenuIcon)) />
+      </WithStyles(ForwardRef(IconButton))>
+      <WithStyles(ForwardRef(Typography))
+        noWrap={true}
+        variant="h6"
+      >
+        Register Card Form
+      </WithStyles(ForwardRef(Typography))>
+    </WithStyles(ForwardRef(Toolbar))>
+  </WithStyles(ForwardRef(AppBar))>
+  <WithStyles(ForwardRef(Drawer))
+    anchor="left"
+    className="makeStyles-drawer-6"
+    classes={
+      Object {
+        "paper": "makeStyles-drawerPaper-7",
+      }
+    }
+    data-testid="Drawer"
+    open={false}
+    variant="persistent"
+  >
+    <div
+      className="makeStyles-drawerHeader-8"
+    >
+      Menu
+      <WithStyles(ForwardRef(IconButton))
+        data-testid="LeftArrorIconButton"
+        onClick={[MockFunction]}
+      >
+        <Memo(ForwardRef(ChevronLeftIcon)) />
+      </WithStyles(ForwardRef(IconButton))>
+    </div>
+    <WithStyles(ForwardRef(Divider)) />
+    <div>
+      This is Menu Item
+    </div>
+  </WithStyles(ForwardRef(Drawer))>
+</div>
+`;

@@ -1,0 +1,49 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DatePicker Component should render default component 1`] = `
+<Fragment>
+  <MuiPickersUtilsProvider
+    utils={[Function]}
+  >
+    <WithStyles(ForwardRef(Grid))
+      className="makeStyles-root-1 datepicker"
+      container={true}
+      data-id="date-grid-container"
+      justify="space-between"
+    >
+      <PickerWithState
+        KeyboardButtonProps={
+          Object {
+            "aria-label": "change date",
+          }
+        }
+        TextFieldComponent={[Function]}
+        allowKeyboardControl={true}
+        autoOk={true}
+        data-testid="keyboardDatePicker"
+        disableToolbar={true}
+        format="DD-MM-YYYY"
+        id="expirydate"
+        inputVariant="outlined"
+        invalidDateMessage="Invalid Date Format"
+        label=""
+        maxDate={2100-01-01T00:00:00.000Z}
+        maxDateMessage="Date should not be after maximal date"
+        minDate={1900-01-01T00:00:00.000Z}
+        minDateMessage="Date should not be before minimal date"
+        onBlur={[MockFunction]}
+        onChange={[Function]}
+        openTo="date"
+        value={null}
+        variant="inline"
+        views={
+          Array [
+            "year",
+            "date",
+          ]
+        }
+      />
+    </WithStyles(ForwardRef(Grid))>
+  </MuiPickersUtilsProvider>
+</Fragment>
+`;
