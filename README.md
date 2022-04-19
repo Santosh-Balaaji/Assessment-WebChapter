@@ -1,4 +1,4 @@
-# Recruit-FrontEnd
+# Recruit-WebChapter
 This is a single page application created using React- Typescript + JavaScript.
 
 ##Installation
